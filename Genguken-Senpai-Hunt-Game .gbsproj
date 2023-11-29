@@ -2,7 +2,7 @@
     "name": "Genguken-Senpai-Hunt-Game ",
     "author": "user",
     "_version": "3.1.0",
-    "_release": "3",
+    "_release": "0",
     "scenes": [
         {
             "id": "94c18861-b352-4f49-a64d-52f2e3415077",
@@ -4340,7 +4340,7 @@
             "name": "Title Screen",
             "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
             "x": 108,
-            "y": 509.6666666666667,
+            "y": 509,
             "width": 20,
             "height": 18,
             "actors": [],
@@ -4382,8 +4382,8 @@
                                 "command": "EVENT_CHOICE",
                                 "args": {
                                     "variable": "10",
-                                    "trueText": "New Gaem",
-                                    "falseText": "Continueeee"
+                                    "trueText": "New Game",
+                                    "falseText": "Continue"
                                 }
                             },
                             {
@@ -4430,9 +4430,7 @@
                                                         "id": "06b8f464-996e-4c51-8918-50d62bb0c02d",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
-                                                            "text": [
-                                                                "No Save Data\nFound KEKW..."
-                                                            ]
+                                                            "text": "No Save Data\nFound..."
                                                         }
                                                     }
                                                 ]
@@ -9408,8 +9406,8 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 517,
-        "zoom": 150,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -9437,9 +9435,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            205,
-            139,
-            356
+            429,
+            142,
+            142
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
