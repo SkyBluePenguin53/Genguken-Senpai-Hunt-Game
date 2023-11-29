@@ -4340,7 +4340,7 @@
             "name": "Title Screen",
             "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
             "x": 108,
-            "y": 509.6666666666667,
+            "y": 509,
             "width": 20,
             "height": 18,
             "actors": [],
@@ -4382,8 +4382,8 @@
                                 "command": "EVENT_CHOICE",
                                 "args": {
                                     "variable": "10",
-                                    "trueText": "New Gaem",
-                                    "falseText": "Continueeee"
+                                    "trueText": "New Game",
+                                    "falseText": "Continue"
                                 }
                             },
                             {
@@ -9408,7 +9408,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 517,
+        "worldScrollY": 444,
         "zoom": 150,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -9437,9 +9437,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            205,
+            422,
             139,
-            356
+            139
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
